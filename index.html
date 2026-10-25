@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Картки для Prom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f3f3f1; --ink: #17181a; --muted: #63666d; --line: #e4e4e0; --accent: #1f6f5c; --soft: #e3f0ec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "Onest", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 12px; }
+  h2 { font-size: 21px; margin: 40px 0 10px; }
+  p { margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 16px 0; }
+  .demo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; background: var(--soft); border-color: #cfe3dc; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 11px 18px; border-radius: 10px; font-weight: 500; }
+  .btn:hover { background: #185a4a; }
+  ol.steps { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+  ol.steps li { counter-increment: s; position: relative; padding-left: 44px; margin-bottom: 18px; }
+  ol.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 600; display: flex; align-items: center; justify-content: center; font-size: 15px; }
+  ol.need { padding-left: 22px; margin: 0; }
+  ol.need li { margin-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 9px 4px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 500; color: var(--muted); font-size: 14px; }
+  td.r, th.r { text-align: right; }
+  b { font-weight: 600; }
+  footer { margin-top: 40px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Картки для Prom</h1>
+  <p>Владе, тут коротко про програму, яку я роблю для вашого магазину: що вона вміє, скільки коштуватиме ШІ і що потрібно від вас, щоб її запустити.</p>
+
+  <div class="card demo">
+    <div>
+      <b>Демо, яке можна потикати</b><br>
+      <span class="muted">Товари й ціни вигадані, фото з фотобанку. Нічого не зберігається.</span>
+    </div>
+    <a class="btn" href="demo/">Відкрити демо</a>
+  </div>
+
+  <h2>Як це працює</h2>
+  <ol class="steps">
+    <li><b>Програма сама забирає товари з AllDrop.</b> Кожні кілька годин вона заходить в AllDrop під вашим доступом і бере нові товари: модель, артикул, ціну, розміри, характеристики й фото.</li>
+    <li><b>Готує картку для кожного товару.</b> ШІ пише назву, опис і пошукові запити українською та російською. Фото обрізаються й вирівнюються в однаковий стиль, і ще додаються 2 фото, де ця пара на нозі. Ціна рахується з вашою націнкою. Якщо такий товар у магазині вже є, картка пропускається, щоб не було дублів.</li>
+    <li><b>Ви перевіряєте й публікуєте.</b> Відкриваєте картку, дивитесь фото й текст, тиснете «Все добре, далі» і переходите до наступної. Якщо треба, щось правите. Потім одна кнопка відправляє всі перевірені картки на Prom.</li>
+  </ol>
+  <p>На Prom картки йдуть через офіційний API, тому блокувань магазину через програму не буде. Можна підключити кілька магазинів, у кожного своя націнка. Працювати можна з телефона: це сайт, його можна винести іконкою на головний екран.</p>
+  <p>Фото на нозі малює ШІ, і іноді він трохи змінює деталі: підошву, шви, логотип. Тому такі фото в картці позначені, і перед публікацією їх варто переглянути. Невдале фото знімається однією галочкою. У демо фото на нозі немає, бо там ШІ не підключений.</p>
+
+  <h2>Скільки коштує ШІ</h2>
+  <p>За ШІ платите напряму Google (тексти) і OpenAI (фото на нозі), зі своєї картки. Майже всі гроші йдуть на фото на нозі, тексти коштують копійки.</p>
+  <div class="card">
+    <table>
+      <tr><th>Що</th><th class="r">Ціна</th></tr>
+      <tr><td>Тексти на одну картку</td><td class="r">≈ 0,4 грн</td></tr>
+      <tr><td>Одне фото на нозі</td><td class="r">≈ 4 грн</td></tr>
+      <tr><td><b>Одна картка з 2 фото на нозі</b>, з урахуванням перегенерацій</td><td class="r"><b>≈ 10 грн</b></td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <table>
+      <tr><th>Нових карток на місяць</th><th class="r">ШІ на місяць</th></tr>
+      <tr><td>100</td><td class="r">≈ 1 000 грн</td></tr>
+      <tr><td>300</td><td class="r">≈ 3 000 грн</td></tr>
+      <tr><td>1 000</td><td class="r">≈ 10 000 грн</td></tr>
+    </table>
+  </div>
+  <p>Якщо хочеться дешевше, можна робити одне фото на нозі замість двох (≈ 5 грн за картку) або робити їх лише для частини товарів. Це міняється в налаштуваннях. Ціни приблизні, точно побачимо після перших 10-20 карток, обидва сервіси показують витрати в кабінеті.</p>
+
+  <h2>Потрібен свій сервер</h2>
+  <p>Програма працює цілодобово: робот ходить в AllDrop, ШІ готує картки, а Prom забирає фото за посиланням. Тому її треба поставити на окремий сервер (VPS), на ноутбуці вона працювати не буде. Підійде звичайний VPS з 4 ГБ пам'яті, це приблизно 300-500 грн на місяць. Можу підказати, який взяти, або оформимо разом. Для адреси підійде піддомен вашого сайту, якщо він є, або недорогий окремий домен.</p>
+
+  <h2>Що потрібно від вас</h2>
+  <div class="card">
+    <ol class="need">
+      <li><b>Доступ до AllDrop.</b> Найкраще завести окремий Google-акаунт для програми і попросити AllDrop дати йому доступ. Увійти в нього треба буде один раз, зробимо це разом.</li>
+      <li><b>Ключ Prom для кожного магазину.</b> У кабінеті Prom: Налаштування → Керування API-токенами. Його ви вставите в програму самі, мені пересилати не треба.</li>
+      <li><b>Акаунти в Google AI Studio і OpenAI</b> з вашою карткою, щоб витрати на ШІ йшли напряму вам. Покажу, де взяти ключі.</li>
+      <li><b>Сервер (VPS)</b>, про нього вище.</li>
+      <li><b>Які мають бути тексти:</b> як звертатися до покупця, що обов'язково писати, і 5-10 карток на Prom, які вам подобаються. І яку ставимо націнку.</li>
+      <li><b>2-3 приклади фото на нозі</b>, які вам подобаються, щоб ШІ робив у такому ж стилі.</li>
+    </ol>
+  </div>
+
+  <footer>Якщо щось незрозуміло, пишіть. Руслан</footer>
+</main>
+</body>
+</html>

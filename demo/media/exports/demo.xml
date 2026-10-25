@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-10-25 12:16">
+<shop>
+<name>Мій магазин</name>
+<currencies><currency id="UAH" rate="1"/></currencies>
+<categories>
+<category id="1">Кросівки</category>
+<category id="2">Кеди</category>
+</categories>
+<offers>
+<offer id="AD-28871-42" available="true" group_id="1170441955">
+<name>Кроссовки мужские высокие черные</name>
+<name_ua>Кросівки чоловічі високі чорні</name_ua>
+<price>2839</price>
+<currencyId>UAH</currencyId>
+<categoryId>1</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu64000k3sldkhydx14d/b8dd00de441a789b73ce5207.jpg</picture>
+<vendorCode>AD-28871</vendorCode>
+<description><![CDATA[<p>Высокие мужские кроссовки с фиксацией щиколотки. Для зала, улицы и повседневной носки.</p><ul><li>Цвет: черный</li></ul>]]></description>
+<description_ua><![CDATA[<p>Високі чоловічі кросівки з фіксацією щиколотки. Для залу, вулиці й щоденного носіння.</p><ul><li>Колір: чорний</li></ul>]]></description_ua>
+<keywords>кроссовки высокие, кроссовки мужские черные</keywords>
+<keywords_ua>кросівки високі, кросівки чоловічі чорні</keywords_ua>
+<param name="Стать">Чоловіча</param>
+<param name="Колір">Чорний</param>
+<param name="Розмір">42</param>
+</offer>
+<offer id="AD-28871-43" available="true" group_id="1170441955">
+<name>Кроссовки мужские высокие черные</name>
+<name_ua>Кросівки чоловічі високі чорні</name_ua>
+<price>2839</price>
+<currencyId>UAH</currencyId>
+<categoryId>1</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu64000k3sldkhydx14d/b8dd00de441a789b73ce5207.jpg</picture>
+<vendorCode>AD-28871</vendorCode>
+<description><![CDATA[<p>Высокие мужские кроссовки с фиксацией щиколотки. Для зала, улицы и повседневной носки.</p><ul><li>Цвет: черный</li></ul>]]></description>
+<description_ua><![CDATA[<p>Високі чоловічі кросівки з фіксацією щиколотки. Для залу, вулиці й щоденного носіння.</p><ul><li>Колір: чорний</li></ul>]]></description_ua>
+<keywords>кроссовки высокие, кроссовки мужские черные</keywords>
+<keywords_ua>кросівки високі, кросівки чоловічі чорні</keywords_ua>
+<param name="Стать">Чоловіча</param>
+<param name="Колір">Чорний</param>
+<param name="Розмір">43</param>
+</offer>
+<offer id="AD-28871-44" available="true" group_id="1170441955">
+<name>Кроссовки мужские высокие черные</name>
+<name_ua>Кросівки чоловічі високі чорні</name_ua>
+<price>2839</price>
+<currencyId>UAH</currencyId>
+<categoryId>1</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu64000k3sldkhydx14d/b8dd00de441a789b73ce5207.jpg</picture>
+<vendorCode>AD-28871</vendorCode>
+<description><![CDATA[<p>Высокие мужские кроссовки с фиксацией щиколотки. Для зала, улицы и повседневной носки.</p><ul><li>Цвет: черный</li></ul>]]></description>
+<description_ua><![CDATA[<p>Високі чоловічі кросівки з фіксацією щиколотки. Для залу, вулиці й щоденного носіння.</p><ul><li>Колір: чорний</li></ul>]]></description_ua>
+<keywords>кроссовки высокие, кроссовки мужские черные</keywords>
+<keywords_ua>кросівки високі, кросівки чоловічі чорні</keywords_ua>
+<param name="Стать">Чоловіча</param>
+<param name="Колір">Чорний</param>
+<param name="Розмір">44</param>
+</offer>
+<offer id="AD-28871-45" available="true" group_id="1170441955">
+<name>Кроссовки мужские высокие черные</name>
+<name_ua>Кросівки чоловічі високі чорні</name_ua>
+<price>2839</price>
+<currencyId>UAH</currencyId>
+<categoryId>1</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu64000k3sldkhydx14d/b8dd00de441a789b73ce5207.jpg</picture>
+<vendorCode>AD-28871</vendorCode>
+<description><![CDATA[<p>Высокие мужские кроссовки с фиксацией щиколотки. Для зала, улицы и повседневной носки.</p><ul><li>Цвет: черный</li></ul>]]></description>
+<description_ua><![CDATA[<p>Високі чоловічі кросівки з фіксацією щиколотки. Для залу, вулиці й щоденного носіння.</p><ul><li>Колір: чорний</li></ul>]]></description_ua>
+<keywords>кроссовки высокие, кроссовки мужские черные</keywords>
+<keywords_ua>кросівки високі, кросівки чоловічі чорні</keywords_ua>
+<param name="Стать">Чоловіча</param>
+<param name="Колір">Чорний</param>
+<param name="Розмір">45</param>
+</offer>
+<offer id="AD-09314-36" available="true" group_id="1168619716">
+<name>Кеды женские белые на каждый день</name>
+<name_ua>Кеди жіночі білі на кожен день</name_ua>
+<price>1209</price>
+<currencyId>UAH</currencyId>
+<categoryId>2</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu9z000n3sldzwvfz5lz/c0337279ff8e04a593c1ac9a.jpg</picture>
+<vendorCode>AD-09314</vendorCode>
+<description><![CDATA[<p>Простые белые кеды без лишних деталей. Легкие, с мягкой стелькой.</p><ul><li>Цвет: белый</li></ul>]]></description>
+<description_ua><![CDATA[<p>Прості білі кеди без зайвих деталей. Легкі, з м'якою устілкою.</p><ul><li>Колір: білий</li></ul>]]></description_ua>
+<keywords>кеды женские, кеды белые женские</keywords>
+<keywords_ua>кеди жіночі, кеди білі жіночі</keywords_ua>
+<param name="Стать">Жіноча</param>
+<param name="Колір">Білий</param>
+<param name="Розмір">36</param>
+</offer>
+<offer id="AD-09314-37" available="true" group_id="1168619716">
+<name>Кеды женские белые на каждый день</name>
+<name_ua>Кеди жіночі білі на кожен день</name_ua>
+<price>1209</price>
+<currencyId>UAH</currencyId>
+<categoryId>2</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu9z000n3sldzwvfz5lz/c0337279ff8e04a593c1ac9a.jpg</picture>
+<vendorCode>AD-09314</vendorCode>
+<description><![CDATA[<p>Простые белые кеды без лишних деталей. Легкие, с мягкой стелькой.</p><ul><li>Цвет: белый</li></ul>]]></description>
+<description_ua><![CDATA[<p>Прості білі кеди без зайвих деталей. Легкі, з м'якою устілкою.</p><ul><li>Колір: білий</li></ul>]]></description_ua>
+<keywords>кеды женские, кеды белые женские</keywords>
+<keywords_ua>кеди жіночі, кеди білі жіночі</keywords_ua>
+<param name="Стать">Жіноча</param>
+<param name="Колір">Білий</param>
+<param name="Розмір">37</param>
+</offer>
+<offer id="AD-09314-38" available="true" group_id="1168619716">
+<name>Кеды женские белые на каждый день</name>
+<name_ua>Кеди жіночі білі на кожен день</name_ua>
+<price>1209</price>
+<currencyId>UAH</currencyId>
+<categoryId>2</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu9z000n3sldzwvfz5lz/c0337279ff8e04a593c1ac9a.jpg</picture>
+<vendorCode>AD-09314</vendorCode>
+<description><![CDATA[<p>Простые белые кеды без лишних деталей. Легкие, с мягкой стелькой.</p><ul><li>Цвет: белый</li></ul>]]></description>
+<description_ua><![CDATA[<p>Прості білі кеди без зайвих деталей. Легкі, з м'якою устілкою.</p><ul><li>Колір: білий</li></ul>]]></description_ua>
+<keywords>кеды женские, кеды белые женские</keywords>
+<keywords_ua>кеди жіночі, кеди білі жіночі</keywords_ua>
+<param name="Стать">Жіноча</param>
+<param name="Колір">Білий</param>
+<param name="Розмір">38</param>
+</offer>
+<offer id="AD-09314-39" available="true" group_id="1168619716">
+<name>Кеды женские белые на каждый день</name>
+<name_ua>Кеди жіночі білі на кожен день</name_ua>
+<price>1209</price>
+<currencyId>UAH</currencyId>
+<categoryId>2</categoryId>
+<picture>https://example.com/media/cards/cmvnsiu9z000n3sldzwvfz5lz/c0337279ff8e04a593c1ac9a.jpg</picture>
+<vendorCode>AD-09314</vendorCode>
+<description><![CDATA[<p>Простые белые кеды без лишних деталей. Легкие, с мягкой стелькой.</p><ul><li>Цвет: белый</li></ul>]]></description>
+<description_ua><![CDATA[<p>Прості білі кеди без зайвих деталей. Легкі, з м'якою устілкою.</p><ul><li>Колір: білий</li></ul>]]></description_ua>
+<keywords>кеды женские, кеды белые женские</keywords>
+<keywords_ua>кеди жіночі, кеди білі жіночі</keywords_ua>
+<param name="Стать">Жіноча</param>
+<param name="Колір">Білий</param>
+<param name="Розмір">39</param>
+</offer>
+</offers>
+</shop>
+</yml_catalog>
